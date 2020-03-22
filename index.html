@@ -27,5 +27,25 @@ p {
 <p><a href="https://www.truegether.com" target="_blank">TRUEGETHER</a> which is my dads company is on the WWW(WORLD WIDE WEB). </p>
 <p><a href="Table.html" target="_blank">DOING tables easily.</a> </p>
 
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+
+<p id="demo">JavaScript can change the style of an HTML element.</p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.fontSize = "25px"; 
+  document.getElementById("demo").style.color = "red";
+  document.getElementById("demo").style.backgroundColor = "yellow";        
+}
+</script>
+
+
 </body>
 </html>
